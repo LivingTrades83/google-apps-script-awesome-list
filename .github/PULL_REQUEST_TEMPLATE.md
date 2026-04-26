@@ -26,7 +26,7 @@ One or two sentences answering: what does this give a GAS developer that the lis
 
 - [ ] The entry follows the format `* [Title](URL) Description` with no trailing period.
 - [ ] The description language matches the resource: English if the resource has an English version, otherwise the original language of the resource.
-- [ ] All links resolve; the linked repository has an OSI-approved license.
+- [ ] All links resolve.
 - [ ] The project is usable without paying the author or signing up for the author's commercial service.
 - [ ] If I added a new top-level section, I also updated the `<!-- toc -->` block and added a `[goto top ⇑](#google-apps-script-list)` link.
 - [ ] My diff contains only the lines I'm actually adding (no whitespace churn or reflow).

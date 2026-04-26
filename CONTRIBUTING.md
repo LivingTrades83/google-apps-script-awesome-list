@@ -24,15 +24,16 @@ A submission has to clear all of these.
 
 1. **Apps Script first.** The project's primary purpose is Apps Script, or it has a first-class Apps Script integration. Generic JavaScript projects with a one-off GAS example don't qualify.
 2. **Usable as published.** Readers can install, copy, or read the resource without paying the author or signing up for the author's commercial service. Wrappers around third-party paid APIs are fine; wrappers that *only* exist to sell the author's own API are not.
-3. **Open source with a clear license.** Code projects must have an OSI-approved license file in the repository.
-4. **Adopted or active.** A submission passes this criterion if **either** of the following is true:
+3. **Adopted or active.** A submission passes this criterion if **either** of the following is true:
    - **Adoption signal** -- the linked GitHub repository has **at least 5 stars**, or there's a comparable usage signal for non-GitHub resources (backlinks from known GAS sites, mentions in tutorials, third-party forks with activity, citations on Stack Overflow). 5 stars is a low bar on purpose -- it's there to keep out brand-new repos with zero outside validation, not to gatekeep niche utilities.
    - **Recent activity** -- the project had a meaningful commit within the last ~12 months **and** isn't archived. New, unstarred projects can still get in if they're being actively developed.
 
    A repository that is **both** unstarred (under 5) **and** untouched for over a year is out -- there's no signal that anyone uses it and no signal that the author still maintains it. Three-year-old, zero-star repos don't pass on the strength of "still installs". Canonical historical references are at maintainer discretion.
-5. **Not a duplicate.** No near-identical alternative is already on the list, and the new entry adds a distinct angle.
-6. **Working links.** Repository, demo, and any cited URLs must resolve.
-7. **Truthful description.** The one-sentence description matches what the project actually does today.
+4. **Not a duplicate.** No near-identical alternative is already on the list, and the new entry adds a distinct angle.
+5. **Working links.** Repository, demo, and any cited URLs must resolve.
+6. **Truthful description.** The one-sentence description matches what the project actually does today.
+
+The list is provided **as is** -- inclusion is not an endorsement, and we don't audit licensing, privacy, or fitness for purpose of upstream resources. Readers are expected to evaluate those themselves before adopting anything from the list.
 
 ## Disqualifiers
 
@@ -40,7 +41,6 @@ PRs that hit any of these will be closed.
 
 - **Marketing for a paid service** dressed up as an Apps Script project. Signals (any two together are usually enough): the repo was created shortly before the PR, the install instructions end with "get an API key at our pricing page", no functionality is demonstrable without that key, the only contributor is the company behind the paid service, the README reads like a landing page.
 - **Paywalled or login-walled** core content (blog posts behind a paywall count).
-- **Closed-source binaries** distributed as Apps Script libraries.
 - **Search-engine-optimisation pages** with no original content beyond a list of features.
 - **Forks without added value** of an item already on the list. "Added value" means the fork fixes, extends, repackages, or significantly modernises the original; cosmetic changes or stale mirrors don't count.
 - **Dead projects**: archived; **or** no commit in the last ~12 months and under 5 stars (no maintenance and no adoption); **or** the demo is offline / core dependencies are broken.
@@ -94,7 +94,7 @@ The repository has a PR template (`.github/PULL_REQUEST_TEMPLATE.md`) that GitHu
 
 - The entry follows the format above (title, URL, one-sentence description, no trailing period).
 - The chosen section is the best fit, or the PR description explains the choice.
-- All links resolve and the repository has a license.
+- All links resolve.
 - If you're the author or affiliated with the project, the PR description says so.
 - The PR description answers, in one or two sentences: **what does this give an Apps Script developer that the list doesn't already cover?**
 - The diff contains only the lines you're actually adding (no whitespace churn elsewhere).
