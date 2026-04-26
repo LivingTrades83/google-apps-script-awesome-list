@@ -102,6 +102,16 @@ The repository has a PR template (`.github/PULL_REQUEST_TEMPLATE.md`) that GitHu
 
 A maintainer may ask you to revise the entry (wording, section, scope). PRs that go without a response for a long stretch may be closed; reopen anytime once addressed.
 
+## Pull request title
+
+PR titles become commit messages on merge, so the repository follows a lightweight Conventional Commits style. Use one of these prefixes:
+
+- `feat:` -- adding a new entry or a new section.
+- `fix:` -- removing a broken link, fixing a typo, or correcting an existing entry.
+- `docs:` -- changes to README narrative, `CONTRIBUTING.md`, templates, or other documentation.
+
+Keep the prefix lowercase, the title under ~70 characters, and reference a related issue with `(#NNN)` at the end if applicable.
+
 ## Removing entries
 
 If you find a broken link, an archived/abandoned project, or an entry that no longer fits the criteria, open a PR with `fix:` in the title removing it. Brief justification in the PR body is enough.
