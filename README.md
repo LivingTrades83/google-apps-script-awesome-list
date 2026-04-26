@@ -1,5 +1,7 @@
 # Google Apps Script List
 
+A curated list of Google Apps Script resources. Want to add or fix something? Read [CONTRIBUTING.md](CONTRIBUTING.md) first -- it explains what we accept and how to format an entry.
+
 <!-- toc -->
 
 * [Communities](#communities)
