@@ -44,7 +44,7 @@ A curated list of Google Apps Script resources. Want to add or fix something? Re
 * [Google Apps Script Community](https://groups.google.com/forum/#!forum/google-apps-script-community) Google Groups
 * [Google Apps Script Facebook Community](https://www.facebook.com/groups/googleappsscript/) Facebook Group
 * [r/GoogleAppsScript](https://www.reddit.com/r/GoogleAppsScript) Reddit
-* [Google Apps Script Telegram Chat](https://t.me/gasru_chat) Telegram
+* [Русскоязычный чат по Google Apps Script](https://t.me/gasru_chat) Telegram
 
 [goto top ⇑](#google-apps-script-list)
 
