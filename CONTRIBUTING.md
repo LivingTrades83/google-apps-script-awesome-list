@@ -30,7 +30,7 @@ A submission has to clear all of these.
    - **Recent activity** -- the project had a meaningful commit within the last ~12 months **and** isn't archived. New, unstarred projects can still get in if they're being actively developed.
 
    A repository that is **both** unstarred (under 5) **and** untouched for over a year is out -- there's no signal that anyone uses it and no signal that the author still maintains it. Three-year-old, zero-star repos don't pass on the strength of "still installs". Canonical historical references are at maintainer discretion.
-5. **Not a duplicate.** A near-identical alternative is already on the list, or the new entry doesn't add a distinct angle.
+5. **Not a duplicate.** No near-identical alternative is already on the list, and the new entry adds a distinct angle.
 6. **Working links.** Repository, demo, and any cited URLs must resolve.
 7. **Truthful description.** The one-sentence description matches what the project actually does today.
 
