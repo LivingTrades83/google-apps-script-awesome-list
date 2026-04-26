@@ -1,4 +1,4 @@
-# Contributing to Google Apps Script Awesome List
+# Contributing to Google Apps Script List
 
 Thanks for taking the time to contribute. This list is a **curated** collection of resources for Google Apps Script developers, not an index of every project that mentions Apps Script. The bar is intentionally higher than "exists and works".
 
