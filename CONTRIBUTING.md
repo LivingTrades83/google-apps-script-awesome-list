@@ -90,15 +90,7 @@ Rules:
 
 ## Pull request checklist
 
-The repository has a PR template (`.github/PULL_REQUEST_TEMPLATE.md`) that GitHub fills into your PR description automatically. Keep the checkboxes there and tick them off as you go. For reference, the same checklist:
-
-- The entry follows the format above (title, URL, one-sentence description, no trailing period).
-- The chosen section is the best fit, or the PR description explains the choice.
-- All links resolve.
-- If you're the author or affiliated with the project, the PR description says so.
-- The PR description answers, in one or two sentences: **what does this give an Apps Script developer that the list doesn't already cover?**
-- The diff contains only the lines you're actually adding (no whitespace churn elsewhere).
-- One entry per PR.
+GitHub pre-fills [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) into your PR description -- it contains the canonical checklist plus prompts for the "what's being added", "why is this awesome", "section choice", and "disclosure" fields. Tick the checkboxes and fill the prompts; the rules they enforce are spelled out in the rest of this document.
 
 A maintainer may ask you to revise the entry (wording, section, scope). PRs that go without a response for a long stretch may be closed; reopen anytime once addressed.
 
